@@ -1,0 +1,15 @@
+repositories {
+    mavenCentral()
+}
+apply plugin: 'application'
+
+mainClassName = 'com.gionee.pay.main.AmigoPlayDemo'
+
+dependencies {
+    compile 'commons-configuration:commons-configuration:1.9'
+    compile 'org.apache.tomcat:tomcat-servlet-api:7.0.30'
+    compile 'org.apache.commons:commons-lang3:3.1'
+    compile 'org.apache.httpcomponents:httpclient:4.2.1'
+    compile 'net.minidev:json-smart:2.0'
+    compile 'net.iharder:base64:2.3.8'
+}
